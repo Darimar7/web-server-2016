@@ -1,10 +1,38 @@
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background:url(../img/intro-bg.jpg) no-repeat center center fixed;
+    background:url(../images/background-image.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+.navbar-default .navbar-header > p{
+  font-size: 20px;
+  color: #ddd;
+  padding-top: 1px;
+}
+.container-fluid {
+  background-color: black;
+  height:55px;
+  padding-right: 47px;
+}
+.navbar-default .navbar-nav > li > a{
+  color:#ddd;
+  font-size: 20px;
+  padding-top:10px;
+  text-shadow: 0 0px 0
+}
+.navbar-default {
+  height: 55px;
+}
+.navbar-brand {
+  padding: 2px 15px 2px 6px;
+}
+navbar-header {
+  height:55px;
+}
+#este {
+  margin-bottom: 0px;
 }
 #corales {
   margin-bottom: 30px;
@@ -12,13 +40,11 @@ body {
 .navbar-right{
   padding-top: 10px;
 }
-.navbar {
-  margin-bottom: 0px;
-}
 .img-full{
   min-width:100%;
+  height:550px;
 }
-.box {
+#box {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: rgba(255,255,255,0.9);
@@ -27,42 +53,39 @@ body {
     margin-right: -15px;
     margin-left: -15px;
 }
-.navbar-default .navbar-header > p{
-  font-size: 20px;
-  color:black;
-  padding-top: 10px
-}
-.container-fluid {
-  background-color: rgba(255,255,255,0.9);
-}
-.navbar-default .navbar-nav > li > a{
-  color:black;
-  font-size: 20px;
-  padding-top: 10px;
-}
-.navbar-brand {
-  padding-top:5px;
-  padding-right: 10px;
-  padding-left: 5px;
-}
+
 #introduction {
   text-align: center;
 }
+
 .buttons-links{
   margin-left: 613px;
-}
-.navbar-brand > img {
-  width: 118px;
-  height: 73px;
+    padding: .5em 1em;
+    border: none;
+    font-size: 16px;
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    font-family: museo-sans;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
+.navbar-brand > img {
+  width: 118px;
+  height: 40px;
+}
+#about4{
+  background-color: rgba(123, 74, 4, 0.88);
+
+}
 .cat {
   width: 400px;
   height: 300px;
   position: relative;
 }
 #footer {
-  background-color: rgba(255,255,255,0.9) ;
   color: black;
   clear: both;
   font-family: Verdana, sans-serif;
@@ -85,8 +108,10 @@ body {
     border-left: 4px solid transparent;
 }
 .bg-primary {
-    background-color: #f05f40;
     font-size: 18px;
+}
+#about{
+  background-color: #00A4FF;
 }
 #about2 {
   background-color: white;
@@ -95,6 +120,16 @@ body {
 }
 #about3 {
   background-color: black;
+}
+#about5{
+  background-color:white;
+  color:black;
+}
+#about6{
+  background-color:rgb(202, 124, 31);
+}
+#about7{
+  background-color:aquamarine;
 }
 section {
     padding: 100px 0;
