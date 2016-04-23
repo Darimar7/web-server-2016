@@ -1,15 +1,49 @@
+html,
+body {
+    height: 100%;
+}
+h2{
+  font-family: 'Satisfy', cursive;
+}
+p{
+  font-family: 'Kalam', cursive;
+  font-size: 24px;
+}
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background:url(../images/background-image.jpg) no-repeat center center fixed;
+    background:url(../images/fondomarino6.jpg)no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-.navbar-default .navbar-header > p{
-  font-size: 20px;
+#carousel-example-generic {
+  width:700px;
+  margin:auto;
+}
+.intro-text{
+  font-family: 'Satisfy', cursive;
+}
+.yo {
+  padding-top: 30px;
+}
+.headline{
+  background-image: url(../images/polipos.jpg);
+  height:300px;
+  background-repeat: NO-REPEAT;
+background-size: cover;
+background-position: center center;
+
+}
+.glyphicon{
+  font-size: 60px;
+  color: #FE7C00
+}
+.navbar-inverse .navbar-header > p{
+  font-size: 23px;
   color: #ddd;
-  padding-top: 1px;
+  margin:16px 0 0 6px;
+  font-family: 'Playfair Display', serif;
 }
 .container-fluid {
   background-color: black;
@@ -20,13 +54,15 @@ body {
   color:#ddd;
   font-size: 20px;
   padding-top:10px;
-  text-shadow: 0 0px 0
+  text-shadow: 0 0px 0;
+  font-family: 'Pacifico', cursive;
 }
 .navbar-default {
   height: 55px;
 }
 .navbar-brand {
   padding: 2px 15px 2px 6px;
+  margin-left: -265px;
 }
 navbar-header {
   height:55px;
@@ -39,19 +75,45 @@ navbar-header {
 }
 .navbar-right{
   padding-top: 10px;
+  font-size: 23px;
+  font-family: 'Playfair Display', serif;
 }
 .img-full{
   min-width:100%;
-  height:550px;
+  max-height:466px;
 }
+.carousel {
+    height: 75%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 #box {
     margin-bottom: 20px;
     padding: 30px 15px;
-    background: rgba(255,255,255,0.9);
   }
   .row {
     margin-right: -15px;
     margin-left: -15px;
+    margin-top: 90px;
+    background-color:rgba(255,255,255,0.9);
+    padding-top: 50px;
 }
 
 #introduction {
@@ -59,8 +121,8 @@ navbar-header {
 }
 
 .buttons-links{
-  margin-left: 613px;
-    padding: .5em 1em;
+  margin-left: 268px;
+    padding: 30px;
     border: none;
     font-size: 16px;
     outline: 0;
@@ -70,11 +132,14 @@ navbar-header {
     font-family: museo-sans;
     font-weight: 900;
     text-transform: uppercase;
+    background-color:rgba(255,255,255,0.9);
+    margin-top: 40px;
 }
 
 .navbar-brand > img {
   width: 118px;
-  height: 40px;
+  height: 57px;
+  margin-left:-131px;
 }
 #about4{
   background-color: rgba(123, 74, 4, 0.88);
@@ -86,15 +151,7 @@ navbar-header {
   position: relative;
 }
 #footer {
-  color: black;
-  clear: both;
-  font-family: Verdana, sans-serif;
-  font-size: 14px;
-  height: 50px;
-  position: relative;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 210px;
 }
 
 .caret {
@@ -180,4 +237,34 @@ section {
     border-color: #ededed;
     color: #222;
     background-color: #f2f2f2;
+}
+#yo {
+  padding-top:30px;
+}
+.wsite-button{
+height: auto;
+padding: 10px 16px;
+background: #FDA047;
+color: white;
+border-radius: 0;
+text-transform: uppercase;
+letter-spacing: .07em;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+}
+.wsite-multicol-table-wrap {
+  margin: 0 -20px;
+}
+#primero {
+  padding: -12px 302px;
+}
+#segundo {
+  padding-bottom: 30px;
+  padding-left: 90px;
+  padding-right: 0px;
+}
+.wsite-multicol > wsite-multicol-col > h2{
+  font-family: 'Playfair Display', serif;
 }
