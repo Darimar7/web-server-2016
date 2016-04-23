@@ -258,13 +258,11 @@ line-height: normal;
   margin: 0 -20px;
 }
 #primero {
-  padding-bottom: 40px;
-  padding-left: 297px;
-  padding-right: 10px;
+  padding: -12px 302px;
 }
 #segundo {
-  padding-bottom: 40px;
-  padding-left: 133px;
+  padding-bottom: 30px;
+  padding-left: 90px;
   padding-right: 0px;
 }
 .wsite-multicol > wsite-multicol-col > h2{
