@@ -3,59 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <title>Final Project</title>
-  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Libre+Baskerville:400italic|Kalam' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/app.css">
   <script type="text/javascript" src="assets/js/jquery.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <nav class="navbar navbar-default" id="este">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">
-          <img alt="Brand" src="assets\images\logo.jpg">
-        </a>
-        <p>Capítulo Estudiantil de la Sociedad Ambiente Marino</p>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="home">Home
-              <b class="caret"></b></a>
-            <ul class="dropdown-menu" id="home-dropdown">
-              <li><a href="index.html">About Us</a></li>
-              <li><a href="ourteam.html">Our Team</a></li>
-              <li><a href="whatwedo.html">What We Do</a></li>
-              <li><a href="#">Recent Posts</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="info.html" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="info">Educative Information
-              <b class="caret"></b></a>
-            <ul class="dropdown-menu" id="info-dropdown">
-              <li><a href="corals.html">Corals</a></li>
-              <li><a href="corals.html">Marine Turtles</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="activities.html" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="activities">Activities
-              <b class="caret"></b></a>
-            <ul class="dropdown-menu" id="activities-dropdown">
-              <li><a href="research.html">Research Projects</a></li>
-              <li><a href="snorkeling.html">Recreational snorkeling/diving</a></li>
-            </ul>
-          </li>
-          <li><a href="gallery.html" id="gallery">Gallery</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+            <img alt="Brand" src="assets\images\logo.jpg">
+           </a>
+           <p>
+             Capítulo Estudiantil de la Sociedad Ambiente Marino
+           </p>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="home">Home
+                <b class="caret"></b></a>
+              <ul class="dropdown-menu" id="home-dropdown">
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="ourteam.html">Our Team</a></li>
+                <li><a href="whatwedo.html">What We Do</a></li>
+                <li><a href="#">Recent Posts</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="info.html" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="info">Educative Information
+                <b class="caret"></b></a>
+              <ul class="dropdown-menu" id="info-dropdown">
+                <li><a href="corals.html">Corals</a></li>
+                <li><a href="corals.html">Marine Turtles</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="activities.html" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="activities">Activities
+                <b class="caret"></b></a>
+              <ul class="dropdown-menu" id="activities-dropdown">
+                <li><a href="research.html">Research Projects</a></li>
+                <li><a href="snorkeling.html">Recreational snorkeling/diving</a></li>
+              </ul>
+            </li>
+            <li><a href="gallery.html" id="gallery">Gallery</a></li>
+          </ul>
+        </div>
     </div>
-  </nav>
+</nav>
+  <header class="business-header">
+      <div class="container">
+          <div class="row">
+          </div>
+      </div>
+  </header>
+
   <section class="bg-primary" id="about4">
         <div class="container">
-            <div class="row">
+            <div class="row" id="about4">
                         <div class="col-lg-12">
                             <h2 class="page-header">Our Team</h2>
                         </div>
@@ -81,7 +100,8 @@
                             <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
                         </div>
                       </div>
-                       <div class="row">
+                      <hr>
+                       <div class="row" id="about4">
                         <div class="col-lg-4 col-sm-6 text-center">
                             <img class="img-circle img-responsive img-center" src="assets\images\melanie.jpg" alt="">
                             <h3>Melanie Quiñones
@@ -104,7 +124,8 @@
                             <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
                         </div>
                       </div>
-                      <div class="row">
+                      <hr>
+                      <div class="row" id="about4">
                         <div class="col-lg-4 col-sm-6 text-center">
                             <img class="img-circle img-responsive img-center" src="assets\images\juan.png" alt="">
                             <h3>Juan Sanchez
@@ -112,8 +133,19 @@
                             </h3>
                             <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
                         </div>
+                        <div class="col-lg-4 col-sm-6 text-center">
+                            <img class="img-circle img-responsive img-center" src="assets\images\silvette.jpg" alt="">
+                            <h3>Silvete Mayorquin
+                                <small>Relacionista Publico</small>
+                            </h3>
+                            <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+                        </div>
                       </div>
+                      <header class="second-header">
+                          <div class="container">
+                              <div class="row">
+                              </div>
+                          </div>
+                      </header>
                     </div>
-
-                    <hr>
     </section>
