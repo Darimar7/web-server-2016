@@ -19,7 +19,7 @@ body {
 }
 .business-header{
   height: 400px;
-  background: url(../images/team.jpg);
+  background: url(../images/fondo-marino.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -35,8 +35,8 @@ body {
   font-family: 'Satisfy', cursive;
 }
 .headline{
-  background-image: url(../images/polipos.jpg);
-  height:300px;
+  background-image: url(../images/fondo-marino5.jpg);
+  height:480px;
   background-repeat: NO-REPEAT;
 background-size: cover;
 background-position: center center;
@@ -46,9 +46,22 @@ background-position: center center;
   font-size: 60px;
   color: #FE7C00
 }
+.navbar-inverse{
+    background-color: #222222;
+    border-color:#222222;
+    background-image: none;
+}
+.navbar-inverse .navbar-nav>li>a{
+  color:white;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: #FDA047;
+    background-image: none;
+}
 .navbar-inverse .navbar-header > p{
   font-size: 23px;
-  color: #ddd;
+  color: white;
   margin:16px 0 0 6px;
   font-family: 'Kalam', cursive;
 }
@@ -82,6 +95,7 @@ navbar-header {
 }
 #corales {
   margin-bottom: 30px;
+  font-family:'Kalam', cursive;
 }
 .navbar-right{
   padding-top: 10px;
@@ -119,8 +133,8 @@ navbar-header {
   padding-bottom: 40px;
 }
 #box {
-    margin-bottom: 20px;
-    padding: 30px 15px;
+    margin-bottom: 28px;
+    padding: 80px 15px;
   }
   .row {
     margin-right: -15px;
@@ -191,9 +205,11 @@ navbar-header {
   background-color: white;
   color:black;
   font-size: 25px;
+  border-top: none;
 }
 #about3 {
   background-color: black;
+  border-top: none;
 }
 #about5{
   background-color:white;
@@ -202,8 +218,12 @@ navbar-header {
 #about6{
   background-color:rgb(202, 124, 31);
 }
-#about7{
-  background-color:aquamarine;
+#about8{
+  background-color: white;
+  border-top: none;
+}
+#contact {
+  border-top: none;
 }
 section {
     padding: 100px 0;
@@ -302,8 +322,8 @@ line-height: normal;
   padding-top: 36px;
 }
 #footer1{
-  padding-bottom: 42px;
-  padding-top: 40px;
+  padding-bottom: 87px;
+  padding-top: 66px;
 }
 .icon {
   font-size: x-large;
@@ -322,9 +342,11 @@ line-height: normal;
 .page-header{
   color: black;
     text-align: center;
-    font-size: 58px;
+    font-size: 86px;
     padding-bottom: 40px;
     border-bottom: none;
+    margin-top: -40px;
+    padding-top: 30px;
 }
 h3 > small{
   color:#FDA047;
@@ -337,24 +359,6 @@ hr{
   padding-left: 0;
   padding-right: 0;
 }
-.portfolio-box {
-    position: relative;
-    display: block;
-    max-width: 650px;
-    margin: 0 auto;
-}
-portfolio-box .portfolio-box-caption {
-    color: white;
-    opacity: 0;
-    display: block;
-    background: rgba(240, 95, 64, 0.9);
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    transition: all 0.35s;
-}
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
     width: 100%;
     text-align: center;
@@ -362,9 +366,125 @@ portfolio-box .portfolio-box-caption {
     top: 50%;
     transform: translateY(-50%);
 }
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: rgba(240,95,64,.9);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+@media(min-width:768px) {
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+}
+
 .text-faded {
     color: rgba(255, 255, 255, 0.7);
 }
 .no-padding {
     padding: 0;
+}
+.coral {
+  background-color: white;
+}
+.featurette-image .img-circle .img-responsive{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.pilar {
+width: 70%;
+height: auto;
+display: block;
+margin: 0 auto;
+margin-bottom: 0px;
+}
+.img-responsive .img-center{
+  min-width:60%;
+  height: auto;
+  display: inline;
+}
+.social-buttons > li > a {
+  display: block;
+background-color: #222222;
+height: 40px;
+width: 40px;
+border-radius: 100%;
+font-size: 20px;
+line-height: 40px;
+outline: none;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+}
+.team-member > h3{
+  font-size: 25px;
+  font-weight: bold;
+margin-top: 25px;
+margin-bottom: 0;
+text-transform: none;
+color:black;
+font-family: 'Kalam', cursive;
+}
+small {
+  font-size: 67%;
+}
+.no-gutter{
+  margin-right: -47px;
+    margin-left: -15px;
+}
+.headline2{
+  background-image: url(../images/fondo-marino3.jpg);
+    height: 480px;
+    background-repeat: NO-REPEAT;
+    background-size: cover;
+    background-position: center center;
 }
