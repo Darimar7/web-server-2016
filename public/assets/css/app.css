@@ -68,7 +68,7 @@ background-position: center center;
 .container-fluid {
   background-color: black;
   height:55px;
-  padding-right: 47px;
+  padding-right: 15px;
 }
 .navbar-default .navbar-nav > li > a{
   color:#ddd;
@@ -225,9 +225,13 @@ navbar-header {
 #contact {
   border-top: none;
 }
+#whatwedo{
+  border-top: none;
+}
 section {
     padding: 100px 0;
 }
+
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
@@ -324,6 +328,13 @@ line-height: normal;
 #footer1{
   padding-bottom: 87px;
   padding-top: 66px;
+}
+#footer3{
+  background-color: #C7C7CA;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 40px;
+  font-family: 'Kalam', cursive;
 }
 .icon {
   font-size: x-large;
