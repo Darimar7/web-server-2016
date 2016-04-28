@@ -381,7 +381,8 @@ hr{
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 650px;
+    width: 420px;
+    overflow: hidden;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -498,4 +499,8 @@ small {
     background-repeat: NO-REPEAT;
     background-size: cover;
     background-position: center center;
+}
+.img-responsive{
+  width:100%
+  hight:auto;
 }
