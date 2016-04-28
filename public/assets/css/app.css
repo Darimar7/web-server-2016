@@ -134,7 +134,7 @@ navbar-header {
 }
 #box {
     margin-bottom: 28px;
-    padding: 80px 15px;
+    padding: 62px 15px;
   }
   .row {
     margin-right: -15px;
@@ -335,6 +335,7 @@ line-height: normal;
   padding-top: 10px;
   line-height: 40px;
   font-family: 'Kalam', cursive;
+  border-top: none;
 }
 .icon {
   font-size: x-large;
